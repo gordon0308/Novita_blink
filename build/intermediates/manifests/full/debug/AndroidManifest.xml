@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aevi.simpleexample"
+    android:versionCode="20"
+    android:versionName="2.3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="com.aevi.permission.CONFIGURATION" />
+    <uses-permission android:name="com.aevi.permission.PAYMENT_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.CARD_TYPE" />
+    <uses-permission android:name="com.aevi.permission.REFUND_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.DEPOSIT_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.TOKEN_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.MOTO_PAYMENT_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.MOTO_REFUND_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.REVERSAL_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.PRE_AUTHORISATION_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.COMPLETION_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.PRINT_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.CRASH_LOG_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.TRANSACTION_LOG_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.SHARED_PREFERENCES_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.AUTHENTICATION_REQUEST" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.aevi.permission.SMART_CARD_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.MAG_STRIPE_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.SYSTEM_BAR_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.MAIL_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.LED_SERVICE" />
+
+    <meta-data
+        android:name="application-type"
+        android:value="vaa_merchant" />
+    <meta-data
+        android:name="ip-addresses"
+        android:value="0.0.0.0/0" />
+
+    <application
+        android:name="com.aevi.simpleexample.SampleApplication"
+        android:icon="@drawable/novita_icon"
+        android:label="@string/app_name"
+        android:noHistory="true"
+        android:screenOrientation="sensorPortait"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.aevi.simpleexample.SampleActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorPortait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aevi.simpleexample.PaymentActivity"
+            android:label="@string/label_Payment"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.PrintingActivity"
+            android:label="@string/label_Printing"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.ConfigurationActivity"
+            android:label="@string/label_Configuration"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.CrashLogActivity"
+            android:label="@string/label_CrashLog"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.TransactionLogActivity"
+            android:label="@string/label_TransactionLog"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.SharedPreferencesActivity"
+            android:label="@string/label_SharedPreferences"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.SharedPreferencesEditActivity"
+            android:label="@string/label_SharedPreferences"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.PrintPreviewActivity"
+            android:label="@string/label_Printing"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.AuthenticationActivity"
+            android:label="@string/label_Authentication"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.SmartCardActivity"
+            android:label="@string/label_SmartCard"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.MagStripeActivity"
+            android:label="@string/label_MagStripe"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.SystemBarActivity"
+            android:label="@string/label_SystemBar"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.MailActivity"
+            android:label="@string/label_Email"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.PlatformCompatibilityActivity"
+            android:label="@string/label_PlatformCompatibility"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.SecureCommunicationsActivity"
+            android:label="@string/label_SecureCommunications"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name="com.aevi.simpleexample.LoadingNdisActivity"
+            android:label="@string/label_LoadNdis"
+            android:screenOrientation="sensorPortait" />
+
+        <receiver android:name="com.aevi.simpleexample.IntegrationModeReceiver" >
+            <intent-filter>
+                <action android:name="com.aevi.payment.BROADCAST_INTEGRATION_MODE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

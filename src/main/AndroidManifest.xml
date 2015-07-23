@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aevi.simpleexample"
+    android:versionCode="20"
+    android:versionName="2.3.0">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="com.aevi.permission.CONFIGURATION" />
+    <uses-permission android:name="com.aevi.permission.PAYMENT_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.CARD_TYPE" />
+    <uses-permission android:name="com.aevi.permission.REFUND_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.DEPOSIT_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.TOKEN_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.MOTO_PAYMENT_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.MOTO_REFUND_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.REVERSAL_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.PRE_AUTHORISATION_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.COMPLETION_REQUEST" />
+    <uses-permission android:name="com.aevi.permission.PRINT_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.CRASH_LOG_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.TRANSACTION_LOG_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.SHARED_PREFERENCES_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.AUTHENTICATION_REQUEST" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.aevi.permission.SMART_CARD_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.MAG_STRIPE_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.SYSTEM_BAR_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.MAIL_SERVICE" />
+    <uses-permission android:name="com.aevi.permission.LED_SERVICE" />
+
+    <application
+        android:name="SampleApplication"
+        android:icon="@drawable/novita_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="sensorPortait"
+        android:noHistory="true">
+        <activity
+            android:name=".SampleActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorPortait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PaymentActivity"
+            android:label="@string/label_Payment"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".PrintingActivity"
+            android:label="@string/label_Printing"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".ConfigurationActivity"
+            android:label="@string/label_Configuration"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".CrashLogActivity"
+            android:label="@string/label_CrashLog"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".TransactionLogActivity"
+            android:label="@string/label_TransactionLog"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".SharedPreferencesActivity"
+            android:label="@string/label_SharedPreferences"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".SharedPreferencesEditActivity"
+            android:label="@string/label_SharedPreferences"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".PrintPreviewActivity"
+            android:label="@string/label_Printing"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".AuthenticationActivity"
+            android:label="@string/label_Authentication"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".SmartCardActivity"
+            android:label="@string/label_SmartCard"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".MagStripeActivity"
+            android:label="@string/label_MagStripe"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".SystemBarActivity"
+            android:label="@string/label_SystemBar"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".MailActivity"
+            android:label="@string/label_Email"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".PlatformCompatibilityActivity"
+            android:label="@string/label_PlatformCompatibility"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".SecureCommunicationsActivity"
+            android:label="@string/label_SecureCommunications"
+            android:screenOrientation="sensorPortait" />
+        <activity
+            android:name=".LoadingNdisActivity"
+            android:label="@string/label_LoadNdis"
+            android:screenOrientation="sensorPortait" />
+
+        <receiver android:name=".IntegrationModeReceiver">
+            <intent-filter>
+                <action android:name="com.aevi.payment.BROADCAST_INTEGRATION_MODE"></action>
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <meta-data
+        android:name="application-type"
+        android:value="vaa_merchant" />
+    <meta-data
+        android:name="ip-addresses"
+        android:value="0.0.0.0/0" />
+
+</manifest>

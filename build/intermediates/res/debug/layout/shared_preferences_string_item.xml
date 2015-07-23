@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="6dip">
+
+    <TextView
+        android:id="@+id/string_item_key_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:ellipsize="end" />
+
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/deleteButton"
+        android:src="@android:drawable/ic_delete" />
+
+</LinearLayout>
+<!-- From: file:/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0%202/samples/AeviSample%20copy/src/main/res/layout/shared_preferences_string_item.xml -->

@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:onClick="readCardClick"
+        android:id="@+id/magstripe_read_card"
+        android:layout_width="179dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:background="@drawable/novita_icon"
+     />
+
+    <Button
+        android:text="Cancel"
+        android:id="@+id/magstripe_cancel"
+        android:onClick="cancelCardClick"
+        style="@style/aevi_button" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test load"
+        android:id="@+id/test_load"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/consoleView" />
+
+</LinearLayout><!-- From: file:/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0%202/samples/AeviSample%20copy/src/main/res/layout/read_mag_stripe.xml -->

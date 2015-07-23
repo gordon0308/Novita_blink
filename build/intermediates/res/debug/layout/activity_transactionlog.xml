@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PaymentActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transaction ID"
+        android:id="@+id/textView"
+        android:layout_gravity="left|center_vertical" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:lines="1"
+        android:inputType="text"
+        android:id="@+id/transactionId"
+        android:layout_gravity="left|center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transaction Text"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|center_vertical" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="10"
+        android:lines="10"
+        android:id="@+id/transactionText"
+        android:layout_gravity="left|center_vertical" />
+
+    <Button
+        android:text="Log Transaction Event"
+        android:id="@+id/logTransactionButton"
+        android:layout_gravity="center"
+        android:onClick="logTransactionClick"
+        style="@style/aevi_button" />
+    />
+
+</LinearLayout><!-- From: file:/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0%202/samples/AeviSample%20copy/src/main/res/layout/activity_transactionlog.xml -->

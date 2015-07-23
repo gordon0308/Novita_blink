@@ -1,0 +1,293 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+uses-permission#android.permission.READ_LOGS
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#com.aevi.permission.CONFIGURATION
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#com.aevi.permission.PAYMENT_REQUEST
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#com.aevi.permission.CARD_TYPE
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#com.aevi.permission.REFUND_REQUEST
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#com.aevi.permission.DEPOSIT_REQUEST
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#com.aevi.permission.TOKEN_REQUEST
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#com.aevi.permission.MOTO_PAYMENT_REQUEST
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#com.aevi.permission.MOTO_REFUND_REQUEST
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#com.aevi.permission.REVERSAL_REQUEST
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#com.aevi.permission.PRE_AUTHORISATION_REQUEST
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+uses-permission#com.aevi.permission.COMPLETION_REQUEST
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+uses-permission#com.aevi.permission.PRINT_SERVICE
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+uses-permission#com.aevi.permission.CRASH_LOG_SERVICE
+ADDED from AndroidManifest.xml:24:5
+	android:name
+		ADDED from AndroidManifest.xml:24:22
+uses-permission#com.aevi.permission.TRANSACTION_LOG_SERVICE
+ADDED from AndroidManifest.xml:25:5
+	android:name
+		ADDED from AndroidManifest.xml:25:22
+uses-permission#com.aevi.permission.SHARED_PREFERENCES_SERVICE
+ADDED from AndroidManifest.xml:26:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22
+uses-permission#com.aevi.permission.AUTHENTICATION_REQUEST
+ADDED from AndroidManifest.xml:27:5
+	android:name
+		ADDED from AndroidManifest.xml:27:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:28:5
+	android:name
+		ADDED from AndroidManifest.xml:28:22
+uses-permission#com.aevi.permission.SMART_CARD_SERVICE
+ADDED from AndroidManifest.xml:29:5
+	android:name
+		ADDED from AndroidManifest.xml:29:22
+uses-permission#com.aevi.permission.MAG_STRIPE_SERVICE
+ADDED from AndroidManifest.xml:30:5
+	android:name
+		ADDED from AndroidManifest.xml:30:22
+uses-permission#com.aevi.permission.SYSTEM_BAR_SERVICE
+ADDED from AndroidManifest.xml:31:5
+	android:name
+		ADDED from AndroidManifest.xml:31:22
+uses-permission#com.aevi.permission.MAIL_SERVICE
+ADDED from AndroidManifest.xml:32:5
+	android:name
+		ADDED from AndroidManifest.xml:32:22
+uses-permission#com.aevi.permission.LED_SERVICE
+ADDED from AndroidManifest.xml:33:5
+	android:name
+		ADDED from AndroidManifest.xml:33:22
+application
+ADDED from AndroidManifest.xml:35:5
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:40:9
+	android:label
+		ADDED from AndroidManifest.xml:38:9
+	android:noHistory
+		ADDED from AndroidManifest.xml:41:9
+	android:icon
+		ADDED from AndroidManifest.xml:37:9
+	android:theme
+		ADDED from AndroidManifest.xml:39:9
+	android:name
+		ADDED from AndroidManifest.xml:36:9
+activity#com.aevi.simpleexample.SampleActivity
+ADDED from AndroidManifest.xml:42:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:45:13
+	android:label
+		ADDED from AndroidManifest.xml:44:13
+	android:name
+		ADDED from AndroidManifest.xml:43:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:46:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:47:17
+	android:name
+		ADDED from AndroidManifest.xml:47:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:49:17
+	android:name
+		ADDED from AndroidManifest.xml:49:27
+activity#com.aevi.simpleexample.PaymentActivity
+ADDED from AndroidManifest.xml:52:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:55:13
+	android:label
+		ADDED from AndroidManifest.xml:54:13
+	android:name
+		ADDED from AndroidManifest.xml:53:13
+activity#com.aevi.simpleexample.PrintingActivity
+ADDED from AndroidManifest.xml:56:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:59:13
+	android:label
+		ADDED from AndroidManifest.xml:58:13
+	android:name
+		ADDED from AndroidManifest.xml:57:13
+activity#com.aevi.simpleexample.ConfigurationActivity
+ADDED from AndroidManifest.xml:60:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:63:13
+	android:label
+		ADDED from AndroidManifest.xml:62:13
+	android:name
+		ADDED from AndroidManifest.xml:61:13
+activity#com.aevi.simpleexample.CrashLogActivity
+ADDED from AndroidManifest.xml:64:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:67:13
+	android:label
+		ADDED from AndroidManifest.xml:66:13
+	android:name
+		ADDED from AndroidManifest.xml:65:13
+activity#com.aevi.simpleexample.TransactionLogActivity
+ADDED from AndroidManifest.xml:68:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:71:13
+	android:label
+		ADDED from AndroidManifest.xml:70:13
+	android:name
+		ADDED from AndroidManifest.xml:69:13
+activity#com.aevi.simpleexample.SharedPreferencesActivity
+ADDED from AndroidManifest.xml:72:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:75:13
+	android:label
+		ADDED from AndroidManifest.xml:74:13
+	android:name
+		ADDED from AndroidManifest.xml:73:13
+activity#com.aevi.simpleexample.SharedPreferencesEditActivity
+ADDED from AndroidManifest.xml:76:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:79:13
+	android:label
+		ADDED from AndroidManifest.xml:78:13
+	android:name
+		ADDED from AndroidManifest.xml:77:13
+activity#com.aevi.simpleexample.PrintPreviewActivity
+ADDED from AndroidManifest.xml:80:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:83:13
+	android:label
+		ADDED from AndroidManifest.xml:82:13
+	android:name
+		ADDED from AndroidManifest.xml:81:13
+activity#com.aevi.simpleexample.AuthenticationActivity
+ADDED from AndroidManifest.xml:84:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:87:13
+	android:label
+		ADDED from AndroidManifest.xml:86:13
+	android:name
+		ADDED from AndroidManifest.xml:85:13
+activity#com.aevi.simpleexample.SmartCardActivity
+ADDED from AndroidManifest.xml:88:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:91:13
+	android:label
+		ADDED from AndroidManifest.xml:90:13
+	android:name
+		ADDED from AndroidManifest.xml:89:13
+activity#com.aevi.simpleexample.MagStripeActivity
+ADDED from AndroidManifest.xml:92:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:95:13
+	android:label
+		ADDED from AndroidManifest.xml:94:13
+	android:name
+		ADDED from AndroidManifest.xml:93:13
+activity#com.aevi.simpleexample.SystemBarActivity
+ADDED from AndroidManifest.xml:96:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:99:13
+	android:label
+		ADDED from AndroidManifest.xml:98:13
+	android:name
+		ADDED from AndroidManifest.xml:97:13
+activity#com.aevi.simpleexample.MailActivity
+ADDED from AndroidManifest.xml:100:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:103:13
+	android:label
+		ADDED from AndroidManifest.xml:102:13
+	android:name
+		ADDED from AndroidManifest.xml:101:13
+activity#com.aevi.simpleexample.PlatformCompatibilityActivity
+ADDED from AndroidManifest.xml:104:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:107:13
+	android:label
+		ADDED from AndroidManifest.xml:106:13
+	android:name
+		ADDED from AndroidManifest.xml:105:13
+activity#com.aevi.simpleexample.SecureCommunicationsActivity
+ADDED from AndroidManifest.xml:108:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:111:13
+	android:label
+		ADDED from AndroidManifest.xml:110:13
+	android:name
+		ADDED from AndroidManifest.xml:109:13
+activity#com.aevi.simpleexample.LoadingNdisActivity
+ADDED from AndroidManifest.xml:112:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:115:13
+	android:label
+		ADDED from AndroidManifest.xml:114:13
+	android:name
+		ADDED from AndroidManifest.xml:113:13
+receiver#com.aevi.simpleexample.IntegrationModeReceiver
+ADDED from AndroidManifest.xml:117:9
+	android:name
+		ADDED from AndroidManifest.xml:117:19
+intent-filter#com.aevi.payment.BROADCAST_INTEGRATION_MODE
+ADDED from AndroidManifest.xml:118:13
+action#com.aevi.payment.BROADCAST_INTEGRATION_MODE
+ADDED from AndroidManifest.xml:119:17
+	android:name
+		ADDED from AndroidManifest.xml:119:25
+meta-data#application-type
+ADDED from AndroidManifest.xml:124:5
+	android:value
+		ADDED from AndroidManifest.xml:126:9
+	android:name
+		ADDED from AndroidManifest.xml:125:9
+meta-data#ip-addresses
+ADDED from AndroidManifest.xml:127:5
+	android:value
+		ADDED from AndroidManifest.xml:129:9
+	android:name
+		ADDED from AndroidManifest.xml:128:9

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0 2/samples/AeviSample copy/libs/aevi-smartcardio-api-1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="79af4234c760e6a79eeb9fdd02eb260184cce626">
+        <dex dex="/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0 2/samples/AeviSample copy/build/intermediates/pre-dexed/debug/aevi-smartcardio-api-1.0-36ae752d57a957f8bb244443169e0cba686f92a7.jar" />
+    </item>
+    <item
+        jar="/Users/GORDONLAM/.gradle/caches/modules-2/files-2.1/ch.acra/acra/4.5.0/44a5eb946e0d83eed4a0128d877ca1fd8168b83a/acra-4.5.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0 2/samples/AeviSample copy/build/intermediates/pre-dexed/debug/acra-4.5.0-255aba9dd4a388af017162d74e66711a3faf8f9c.jar" />
+    </item>
+    <item
+        jar="/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0 2/samples/AeviSample copy/libs/aevi-api-2.3.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="69785d5c56c9799b587ef956420d3e6ab18191ef">
+        <dex dex="/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0 2/samples/AeviSample copy/build/intermediates/pre-dexed/debug/aevi-api-2.3.0-a8b8d326c716a7ff8811096ad19a8428c12cedb3.jar" />
+    </item>
+
+</items>

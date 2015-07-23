@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="6dip">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dip"
+        android:layout_weight="1">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginRight="10dp"
+                android:text="@string/preference_key" />
+
+            <TextView
+                android:id="@+id/shared_preference_key_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:ellipsize="end" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/preference_type"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/shared_preference_type_id"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/preference_value"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/shared_preference_value_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:ellipsize="end"
+                android:layout_weight="1"
+                android:maxLines="4" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/deleteButton"
+        android:src="@android:drawable/ic_delete" />
+
+</LinearLayout>
+<!-- From: file:/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0%202/samples/AeviSample%20copy/src/main/res/layout/shared_preferences_item.xml -->

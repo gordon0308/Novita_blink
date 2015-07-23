@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!--  APDU to read from non-payment JavaCard -->
+    <string-array name="adpu_command_list">
+        <item>00 A4 04 00 08 A0 00 00 00 03 00 00 00</item>
+        <item>80 50 00 00 08 51 D3 6B 59 89 DC D6 29</item>
+        <item>84 82 00 00 10 D3 64 2B 32 2C B6 8A 7C 77 CF 6F 43 88 F2 D3 D5</item>
+        <item>84 82 00 00 08 D3 64 2B 32 2C B6 8A 7C</item>
+        <item>80 F2 80 00 02 4F 00</item>
+        <item>80 F2 80 00 02 4F 00</item>
+        <item>80 F2 40 00 02 4F 00</item>
+        <item>80 F2 40 00 02 4F 00</item>
+        <item>80 F2 10 00 02 4F 00</item>
+        <item>80 F2 10 00 02 4F 00</item>
+        <item>80 F2 20 00 02 4F 00</item>
+        <item>80 F2 20 00 02 4F 00</item>
+    </string-array>
+
+</resources>

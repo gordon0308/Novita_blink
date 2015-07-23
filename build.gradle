@@ -1,0 +1,25 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0+'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 15
+    buildToolsVersion "20"
+
+    dependencies {
+        compile 'ch.acra:acra:4.5.0'
+        compile fileTree(dir: 'libs', include: '*.jar')
+    }
+}

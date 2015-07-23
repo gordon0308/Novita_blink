@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0%202/samples/AeviSample%20copy/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="adpu_command_list">
+        <item>00 A4 04 00 08 A0 00 00 00 03 00 00 00</item>
+        <item>80 50 00 00 08 51 D3 6B 59 89 DC D6 29</item>
+        <item>84 82 00 00 10 D3 64 2B 32 2C B6 8A 7C 77 CF 6F 43 88 F2 D3 D5</item>
+        <item>84 82 00 00 08 D3 64 2B 32 2C B6 8A 7C</item>
+        <item>80 F2 80 00 02 4F 00</item>
+        <item>80 F2 80 00 02 4F 00</item>
+        <item>80 F2 40 00 02 4F 00</item>
+        <item>80 F2 40 00 02 4F 00</item>
+        <item>80 F2 10 00 02 4F 00</item>
+        <item>80 F2 10 00 02 4F 00</item>
+        <item>80 F2 20 00 02 4F 00</item>
+        <item>80 F2 20 00 02 4F 00</item>
+    </string-array>
+    <!-- From: file:/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0%202/samples/AeviSample%20copy/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="print_examples">
+        <item>Example 1</item>
+        <item>Example 2</item>
+        <item>Example 3</item>
+        <item>Example 4</item>
+        <item>Example 5</item>
+    </string-array>
+    <string-array name="shared_preference_types">
+        <item>STRING</item>
+        <item>BOOLEAN</item>
+        <item>LONG</item>
+        <item>INTEGER</item>
+        <item>FLOAT</item>
+        <item>STRING SET</item>
+    </string-array>
+    <!-- From: file:/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0%202/samples/AeviSample%20copy/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="off_white">#ffededed</color>
+    <color name="red">#f00</color>
+    <!-- From: file:/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0%202/samples/AeviSample%20copy/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0%202/samples/AeviSample%20copy/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Novita Sample Application</string>
+    <string name="button_update">Update</string>
+    <string name="configview">configView</string>
+    <string name="crash_toast_text">Unfortunately the application has crashed. The error has been
+    logged and will be reported.</string>
+    <string name="httpExampleInfo">Search for public projects on GitHub</string>
+    <string name="integration_mode_text">Integrated mode:</string>
+    <string name="label_Authentication">Authentication sample</string>
+    <string name="label_Configuration">Configuration sample</string>
+    <string name="label_CrashLog">Crash log sample</string>
+    <string name="label_Email">Email sample</string>
+    <string name="label_LED">LED sample</string>
+    <string name="label_LoadNdis">LED sample</string>
+    <string name="label_MagStripe">Mag Stripe sample</string>
+    <string name="label_Payment">Payment samples</string>
+    <string name="label_PlatformCompatibility">Platform Compatibility sample</string>
+    <string name="label_Printing">Printing samples</string>
+    <string name="label_SecureCommunications">Secure Communications sample</string>
+    <string name="label_SharedPreferences">Shared Preferences sample</string>
+    <string name="label_SmartCard">Smart Card sample</string>
+    <string name="label_Start">Start</string>
+    <string name="label_SystemBar">System Bar sample</string>
+    <string name="label_Tools">Tools</string>
+    <string name="label_TransactionLog">Transaction log sample</string>
+    <string name="preference_create_title">Create new shared preference item</string>
+    <string name="preference_edit_title">Edit existing shared preference item</string>
+    <string name="preference_existingString">Edit existing string</string>
+    <string name="preference_invalid">Invalid </string>
+    <string name="preference_key">Key:</string>
+    <string name="preference_newString">Enter new string</string>
+    <string name="preference_noKeyEntered">No key entered</string>
+    <string name="preference_notification_received">Changed notification received for</string>
+    <string name="preference_type">Type:</string>
+    <string name="preference_value">Value:</string>
+    <string name="print_example_prompt">Choose a print example</string>
+    <string name="removeAll">Remove All</string>
+    <string name="repeat_off">Once</string>
+    <string name="repeat_restart">Restart</string>
+    <string name="repeat_reverse">Reverse</string>
+    <string name="shared_preference_activity_explanation">Listed below are the shared preference items of the sample application.</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_integrated_mode">Integrated mode</string>
+    <string name="text_off">Off</string>
+    <string name="text_ok">OK</string>
+    <string name="text_on">On</string>
+    <string name="text_standalone_mode">Stand-alone mode</string>
+    <string name="title_activity_shared_preferences_edit">SharedPreferencesEditActivity</string>
+    <!-- From: file:/Users/GORDONLAM/Desktop/Hackathon/Aevi-SDK-2.3.0%202/samples/AeviSample%20copy/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    <style name="aevi_button" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_style</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+</resources>
